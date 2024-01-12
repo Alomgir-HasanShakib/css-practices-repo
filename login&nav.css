@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav > div a {
+  margin-left: 30px;
+}
+.loginFormContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid rgba(25, 58, 2, 0.8);
+  padding: 10px;
+}
+.loginForm input {
+  margin-bottom: 20px;
+  border: 0;
+  background-color: #f014;
+  padding: 10px;
+}
